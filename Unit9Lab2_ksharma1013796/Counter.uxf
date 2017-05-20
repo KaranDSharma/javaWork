@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="13.3">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>340</x>
+      <y>60</y>
+      <w>210</w>
+      <h>320</h>
+    </coordinates>
+    <panel_attributes>Counter Test
+--
+private Stage stage
+	Scene myScene
+	FlowPane rootNode
+	Button plus
+	Label tab1
+	Button minus
+	Label tab2
+	Button gone
+	Label prompt
+	TextField textField2
+	Label inc
+	int displayValue = 0
+	Label increment
+	Label decrement
+	Label clear;
+	Counter cnt = new Counter()
+--
+start: myStage
+main: launch args</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>60</x>
+      <y>60</y>
+      <w>210</w>
+      <h>190</h>
+    </coordinates>
+    <panel_attributes>Counter
+--
+myCount: int
+value: int
+i: int
+--
+Counter: void
+setValue: i
+getValue: void
+increment: void
+decrement: void
+toString: void</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.baselet.element.old.element.Relation</type>
+    <coordinates>
+      <x>240</x>
+      <y>120</y>
+      <w>120</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>100;30;30;30</additional_attributes>
+  </element>
+</diagram>
